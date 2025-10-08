@@ -1,0 +1,63 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: #b953d1;
+    height: 100vh;
+}
+
+.container{
+    background: #fff;
+    width: 400px;
+    border-radius: 10px;
+    margin: 250px auto;
+    padding: 30px;
+}
+
+.container .info p{
+    margin-top: 15px;
+}
+
+.container form{
+    display: grid;
+    height: 100px;
+    margin: 25px 0;
+}
+
+.container form :where(input , button){
+    outline: none;
+    border: none;
+    width: 100%;
+    border-radius: 5px;
+    margin: 5px 0;
+    padding: 10px;
+    font-size: 16px;
+    height: 45px;
+}
+
+ .container form input{
+    border: 1px solid #999;
+}
+
+.container form input ::placeholder{
+    margin: 20px;
+}
+
+.container form button{
+    background: #b953d1;
+    color: #fff;
+}
+
+.container .qr-code{
+    border: 1px solid #999;
+    border-radius: 5px;
+    text-align: center;
+    padding: 10px;
+}
+
+.hidden{
+    display: none;
+}
